@@ -1,0 +1,313 @@
+body {
+
+  font-family: 'Sofia';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Top{
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+}
+.Head{
+  color: lightseagreen;
+    margin-left: 25px;
+  text-shadow: 6px 6px 15px gray;
+  font-size: 50px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  display: table-cell;
+}
+#tag{
+  float: inside;
+  color: green;
+  width: auto ;
+  font-size: 20px;
+  height: auto;
+}
+#logoimg1{
+  height: 100px;
+  float: left;
+  display: table-cell;
+    margin-left: 735px;
+    padding: 8px 0px 0px 10px;
+}
+
+
+
+
+.nav {
+    margin-top: 8px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    display: inline-flex;
+    margin-bottom: 10px;
+    vertical-align: unset;
+}
+
+
+
+
+.tab {
+  overflow: hidden;
+  background-color: #02b7c2;
+   border-radius: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+.tab button:hover {
+    background-color:lightblue;
+}
+.tablinks{
+    padding:10px;
+    color: white
+}
+
+
+
+
+.signinbutton{
+    overflow: hidden;
+    background-color: #02b7c2;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 10px;
+
+}
+.signinbutton button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.signinbutton button:hover{
+    background-color: lightblue;
+}
+
+
+
+
+.registerbutton{
+    overflow: hidden;
+    background-color: #02b7c2;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.registerbutton button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.registerbutton button:hover{
+    background-color: lightblue;
+
+}
+
+
+
+
+.Search_content{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background: #02b7c2;
+  box-shadow: #222222;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.search_bar{
+  padding: 15px;
+  width: 700px;
+  display: inline-block;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 425px;
+  background: #f1f1f1;
+}
+form.example button {
+  width: 80px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+
+
+
+
+.orclass{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:auto;
+    display: inline-flex;
+    font-size: 25px;
+    margin-top: 5px;
+    color: white;
+}
+.uploadbuttonc button:hover{
+    background-color: #0b7dda;
+    cursor: pointer;
+ }
+#uploadbutton{
+    width: 200px;
+    background: #2196F3;
+    color: white;
+    border-radius: 15px;
+}
+
+
+
+
+.row{
+  background: slategray;
+  box-shadow: 10px 20px 50px 0.5px black;
+  margin: 30px 30px 50px;
+  border-radius: 10px;
+}
+.column {
+  float: left;
+  width: 22%;
+  height: 350px;
+  border-radius: 10px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+#coldnfever{
+  font-size: 20px;
+text-align: center;
+color: darkred;
+}
+
+#coldnfeverbutton{
+    border-radius: 15px;
+    background: url("cold.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 316px 296px;
+    padding: 8px;
+    width:321.017px;
+    height: 300px
+}
+
+
+
+#bonecare{
+  font-size: 20px;
+  text-align: center;
+  color: darkred;
+}
+
+#bonecarebutton{
+    border-radius: 15px;
+    background: url("bone.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 316px 296px;
+    padding: 8px;
+    width:321.017px;
+    height: 300px
+}
+
+
+
+#lungcare{
+  font-size: 20px;
+  text-align: center;
+  color: darkred;
+}
+
+#lungcarebutton{
+    border-radius: 15px;
+    background: url("lung.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 316px 296px;
+    padding: 8px;
+    width:321.017px;
+    height: 300px
+}
+
+
+
+
+#diabetescare{
+  font-size: 20px;
+  text-align: center;
+  color: darkred;
+}
+#diabetesbutton{
+    border-radius: 15px;
+   background: url("diabetes.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 316px 296px;
+    padding: 8px;
+    width:321.017px;
+    height: 300px
+}
+
+
+
+
+.footer{
+  width: 100%;
+  height: 200px;
+  background: #02b7c2;
+}
+/*
+#abc{
+  color: white;
+  font-size: 30px;
+  overflow: hidden;
+}*/

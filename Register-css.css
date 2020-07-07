@@ -1,0 +1,216 @@
+body {
+
+    font-family: 'Sofia';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Top{
+    display: inline-flex;
+    height: auto;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.Head{
+    color: lightseagreen;
+    margin-left: 25px;
+    text-shadow: 6px 6px 15px gray;
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: table-cell;
+}
+#tag{
+    float: inside;
+    color: green;
+    width: auto ;
+    font-size: 20px;
+    height: auto;
+}
+#logoimg1{
+
+    height: 100px;
+    float: left;
+    display: table-cell;
+    margin-left: 735px;
+    padding: 8px 0px 0px 10px;
+}
+
+
+.nav {
+    margin-top: 8px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    display: inline;
+    margin-bottom: 10px;
+    vertical-align: unset;
+}
+
+
+.tab {
+    overflow: hidden;
+    background-color: #02b7c2;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+.tab button:hover {
+    background-color:lightblue;
+}
+.tablinks{
+    padding:10px;
+    color: white
+}
+
+
+
+
+
+.Search_content{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background: #02b7c2;
+    box-shadow: #222222;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.search_bar{
+    padding: 15px;
+    width: 700px;
+    display: inline-block;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 425px;
+    background: #f1f1f1;
+}
+form.example button {
+    width: 80px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+form.example button:hover {
+    background: #0b7dda;
+}
+
+.orclass{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:auto;
+    display: inline-flex;
+    font-size: 25px;
+    margin-top: 5px;
+    color: white;
+}
+.uploadbuttonc button:hover{
+    background-color: #0b7dda;
+    cursor: pointer;
+}
+#uploadbutton{
+    width: 200px;
+    background: #2196F3;
+    color: white;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+.middle {
+    background: darkcyan;
+    margin: 8px;
+    border-radius: 20px;
+    height: auto;
+}
+
+
+.Registerationform{
+    box-shadow: 8px 8px 25px black;
+    width: 505px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.genderimageofuser{
+    text-align: center;
+    width: 500px;
+    height: 303px;
+}
+ img#genderimage
+ {
+     width: 300px;
+     border-radius: 50%;
+     padding: 25px;
+ }
+
+
+
+input[type=text]
+{
+    margin-right:15px;
+    width: -moz-available;
+    height: 40px;
+    border-radius: 10px;
+}
+.submitbutton{
+    margin-bottom: 20px;
+    height: 50px;
+    width: -moz-available;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+    color: inherit;
+}
+
+.footer{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    height: 200px;
+    background: #02b7c2;
+    border-radius: 20px;
+    color: inherit;
+
+}
